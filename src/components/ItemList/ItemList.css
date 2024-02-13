@@ -1,0 +1,11 @@
+.tours{
+    margin: 0;
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+}
+@media only screen and (max-width: 480px) {
+	.tours{
+		flex-direction: column;
+	}
+}
